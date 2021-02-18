@@ -8,7 +8,7 @@ let img = "https://picsum.photos/200";
 ReactDOM.render(
   <div>
     <h3 className="heading">Hello {fName + " " + lName}</h3>
-    <img src={img} />
+    <img src={img + "?grayscale"} />
     <p>
       <img
         className="img-area"
